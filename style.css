@@ -1,0 +1,71 @@
+h1 {
+    
+    color : purple
+
+}
+
+.header {
+    background-color:#ff7070;
+    display: flex;
+    justify-content: space-between;
+    padding-left : 50px;
+    
+}
+
+.menu {
+    margin-right : 50px;
+    margin-top : 25px;
+    padding-left : 10px;
+}
+.grid {
+    background-color: plum ;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    background-color: rosybrown;
+    display: flex;
+    justify-content: flex-end;
+}
+
+p, h2 {
+    text-align: center;
+}
+
+.item {
+    background-color: salmon;
+    border: solid;
+    border-color: slateblue;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300;
+    height: 300;
+    position: relative;
+
+}
+
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    
+}
+
+.item:hover p {
+    opacity: 1;
+}
+.item:hover img {
+    opacity: 0.33;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
